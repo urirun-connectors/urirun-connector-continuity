@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: urirun-connector-continuity
+Version: 0.1.0
+Summary: Obnaża per-ticket niedopowiedzenia jako fakty URI: ready/verify/gap — fundament autonomii (gap://).
+Author: Tom Sapletta
+License: Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: urirun>=0.4.14
+
+# urirun-connector-continuity
+
+`gap://` — obnaża per-ticket niedopowiedzenia jako jawne fakty URI: `ready` (wykonywalny?),
+`verify` (Done weryfikowalny?), `analyze` (czego brakuje + następna akcja), `scan` (luki
+systemowe). Fundament autonomii: pętla sterująca czyta luki i decyduje poprawnie.

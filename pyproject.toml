@@ -16,6 +16,7 @@ dependencies = ["urirun>=0.4.14"]
 test = [
     "pytest>=8,<10",
     "urirun-connector-watchdog @ git+https://github.com/urirun-connectors/urirun-connector-watchdog.git@main",
+    "urirun-connector-work @ git+https://github.com/urirun-connectors/urirun-connector-work.git@main",
 ]
 
 [project.entry-points."urirun.bindings"]
